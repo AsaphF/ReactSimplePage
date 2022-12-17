@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #282D35;
+}
+.headerPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0.5em;
+    background-color: #21222A;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#headerSection{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.2em;
+}
+
+#titleHeader{
+    color: #61DAFB;
+    margin-left: 0.5em;
+    font-weight: 700;
+    font-size: 22px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    color: white ;  
+}
+
+.main--title{
+  align-self:center;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.main--list > li{
+    margin-left: 10em;
+    font-size: 1em;
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--list > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+footer{
+    background-color: #21222A;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+}
